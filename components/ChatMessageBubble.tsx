@@ -15,7 +15,7 @@ export function ChatMessageBubble(props: { message: Message, aiEmoji?: string, s
       </div>
       <div className="whitespace-pre-wrap flex flex-col">
         <span>{props.message.content}</span>
-        {/* {props.sources && props.sources.length ? <>
+        {props.sources && props.sources.length ? <>
           <code className="mt-4 mr-auto bg-slate-600 px-2 py-1 rounded">
             <h2>
               🔍 Sources:
@@ -32,7 +32,7 @@ export function ChatMessageBubble(props: { message: Message, aiEmoji?: string, s
               </div>
             ))}
           </code>
-        </> : ""} */}
+        </> : ""}
       </div>
     </div>
   );
